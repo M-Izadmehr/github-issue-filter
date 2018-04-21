@@ -1,0 +1,2639 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Issues Page should render the Issues page 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <div>
+        <div
+            className="card text-white bg-success mb-5"
+        >
+            <div
+                className="card-header d-flex justify-content-between"
+            >
+                <h4>
+                    Filter Issues
+                </h4>
+                <button
+                    className="btn btn-danger"
+                    onClick={[Function]}
+                >
+                    Apply
+                </button>
+            </div>
+            <form>
+                <div
+                    className="card-body bg-light text-dark"
+                >
+                    <div
+                        className="form-row mb-3"
+                    >
+                        <div
+                            className="col"
+                        >
+                            <label
+                                htmlFor="inputState"
+                            >
+                                Sort by
+                            </label>
+                            <select
+                                className="form-control"
+                                id="inputState"
+                                onChange={[Function]}
+                            >
+                                <option
+                                    value="created"
+                                >
+                                    created
+                                </option>
+                                <option
+                                    value="updated"
+                                >
+                                    updated
+                                </option>
+                                <option
+                                    value="comments"
+                                >
+                                    comments
+                                </option>
+                            </select>
+                        </div>
+                        <div
+                            className="col"
+                        >
+                            <label
+                                htmlFor="inputDirection"
+                            >
+                                Sort direction
+                            </label>
+                            <select
+                                className="form-control"
+                                id="inputState"
+                                onChange={[Function]}
+                            >
+                                <option
+                                    value="desc"
+                                >
+                                    descending
+                                </option>
+                                <option
+                                    value="asc"
+                                >
+                                    ascending
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <hr />
+                    <div
+                        className="form-row mb-3"
+                    >
+                        <div
+                            className="col"
+                        >
+                            <label
+                                htmlFor="inputTags"
+                            >
+                                Labels
+                            </label>
+                            <TagsInput
+                                addKeys={
+                                    Array [
+                                        9,
+                                        13,
+                                      ]
+                                }
+                                addOnBlur={false}
+                                addOnPaste={false}
+                                className="react-tagsinput"
+                                disabled={false}
+                                focusedClassName="react-tagsinput--focused"
+                                inputProps={Object {}}
+                                maxTags={-1}
+                                onChange={[Function]}
+                                onlyUnique={false}
+                                pasteSplit={[Function]}
+                                preventSubmit={true}
+                                removeKeys={
+                                    Array [
+                                        8,
+                                      ]
+                                }
+                                renderInput={[Function]}
+                                renderLayout={[Function]}
+                                renderTag={[Function]}
+                                tagDisplayProp={null}
+                                tagProps={
+                                    Object {
+                                        "className": "react-tagsinput-tag",
+                                        "classNameRemove": "react-tagsinput-remove",
+                                      }
+                                }
+                                validationRegex={/\\.\\*/}
+                                value={
+                                    Array [
+                                        "bug",
+                                        "ui",
+                                      ]
+                                }
+                            />
+                        </div>
+                        <div
+                            className="col"
+                        >
+                            <label
+                                htmlFor="inputState"
+                            >
+                                State
+                            </label>
+                            <select
+                                className="form-control"
+                                id="inputState"
+                                onChange={[Function]}
+                            >
+                                <option
+                                    value="all"
+                                >
+                                    all
+                                </option>
+                                <option
+                                    value="open"
+                                >
+                                    open
+                                </option>
+                                <option
+                                    value="closed"
+                                >
+                                    closed
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <hr />
+                    <div
+                        className="form-row mb-3"
+                    >
+                        <div
+                            className="col"
+                        >
+                            <label
+                                htmlFor="date"
+                            >
+                                date
+                            </label>
+                            <DatePicker
+                                allowSameDay={false}
+                                dateFormat="L"
+                                dateFormatCalendar="MMMM YYYY"
+                                disabled={false}
+                                disabledKeyboardNavigation={false}
+                                dropdownMode="scroll"
+                                monthsShown={1}
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onClickOutside={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onMonthChange={[Function]}
+                                onSelect={[Function]}
+                                onYearChange={[Function]}
+                                preventOpenOnFocus={false}
+                                selected={"2017-11-12T20:41:00.000Z"}
+                                shouldCloseOnSelect={true}
+                                showTimeSelect={false}
+                                timeCaption="Time"
+                                timeIntervals={30}
+                                withPortal={false}
+                            />
+                        </div>
+                        <div
+                            className="col"
+                        >
+                            <label
+                                htmlFor="author"
+                            >
+                                author
+                            </label>
+                            <div
+                                className="col input-group p-0"
+                            >
+                                <div
+                                    className="input-group-prepend"
+                                >
+                                    <span
+                                        className="input-group-text"
+                                        id="basic-addon1"
+                                    >
+                                        @
+                                    </span>
+                                </div>
+                                <input
+                                    aria-describedby="basic-addon1"
+                                    aria-label="Username"
+                                    className="form-control"
+                                    onChange={[Function]}
+                                    placeholder="Creator"
+                                    type="text"
+                                    value=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <Card
+            item={
+                Object {
+                    "closed_at": null,
+                    "created_at": "2017-11-13T00:11:00+03:30",
+                    "id": 13,
+                    "title": "issue",
+                    "updated_at": "2017-11-13T00:11:00+03:30",
+                    "url": "www.google.com",
+                  }
+            }
+        />
+        <Card
+            item={
+                Object {
+                    "closed_at": "2017-11-13T00:11:00+03:30",
+                    "created_at": "2017-11-13T00:11:00+03:30",
+                    "id": 20,
+                    "title": "issue2",
+                    "updated_at": "2017-11-13T00:11:00+03:30",
+                    "url": "www.google.com",
+                  }
+            }
+        />
+    </div>
+</div>,
+  "nodes": Array [
+    <div>
+      <div>
+            <div
+                  className="card text-white bg-success mb-5"
+            >
+                  <div
+                        className="card-header d-flex justify-content-between"
+                  >
+                        <h4>
+                              Filter Issues
+                        </h4>
+                        <button
+                              className="btn btn-danger"
+                              onClick={[Function]}
+                        >
+                              Apply
+                        </button>
+                  </div>
+                  <form>
+                        <div
+                              className="card-body bg-light text-dark"
+                        >
+                              <div
+                                    className="form-row mb-3"
+                              >
+                                    <div
+                                          className="col"
+                                    >
+                                          <label
+                                                htmlFor="inputState"
+                                          >
+                                                Sort by
+                                          </label>
+                                          <select
+                                                className="form-control"
+                                                id="inputState"
+                                                onChange={[Function]}
+                                          >
+                                                <option
+                                                      value="created"
+                                                >
+                                                      created
+                                                </option>
+                                                <option
+                                                      value="updated"
+                                                >
+                                                      updated
+                                                </option>
+                                                <option
+                                                      value="comments"
+                                                >
+                                                      comments
+                                                </option>
+                                          </select>
+                                    </div>
+                                    <div
+                                          className="col"
+                                    >
+                                          <label
+                                                htmlFor="inputDirection"
+                                          >
+                                                Sort direction
+                                          </label>
+                                          <select
+                                                className="form-control"
+                                                id="inputState"
+                                                onChange={[Function]}
+                                          >
+                                                <option
+                                                      value="desc"
+                                                >
+                                                      descending
+                                                </option>
+                                                <option
+                                                      value="asc"
+                                                >
+                                                      ascending
+                                                </option>
+                                          </select>
+                                    </div>
+                              </div>
+                              <hr />
+                              <div
+                                    className="form-row mb-3"
+                              >
+                                    <div
+                                          className="col"
+                                    >
+                                          <label
+                                                htmlFor="inputTags"
+                                          >
+                                                Labels
+                                          </label>
+                                          <TagsInput
+                                                addKeys={
+                                                      Array [
+                                                            9,
+                                                            13,
+                                                          ]
+                                                }
+                                                addOnBlur={false}
+                                                addOnPaste={false}
+                                                className="react-tagsinput"
+                                                disabled={false}
+                                                focusedClassName="react-tagsinput--focused"
+                                                inputProps={Object {}}
+                                                maxTags={-1}
+                                                onChange={[Function]}
+                                                onlyUnique={false}
+                                                pasteSplit={[Function]}
+                                                preventSubmit={true}
+                                                removeKeys={
+                                                      Array [
+                                                            8,
+                                                          ]
+                                                }
+                                                renderInput={[Function]}
+                                                renderLayout={[Function]}
+                                                renderTag={[Function]}
+                                                tagDisplayProp={null}
+                                                tagProps={
+                                                      Object {
+                                                            "className": "react-tagsinput-tag",
+                                                            "classNameRemove": "react-tagsinput-remove",
+                                                          }
+                                                }
+                                                validationRegex={/\\.\\*/}
+                                                value={
+                                                      Array [
+                                                            "bug",
+                                                            "ui",
+                                                          ]
+                                                }
+                                          />
+                                    </div>
+                                    <div
+                                          className="col"
+                                    >
+                                          <label
+                                                htmlFor="inputState"
+                                          >
+                                                State
+                                          </label>
+                                          <select
+                                                className="form-control"
+                                                id="inputState"
+                                                onChange={[Function]}
+                                          >
+                                                <option
+                                                      value="all"
+                                                >
+                                                      all
+                                                </option>
+                                                <option
+                                                      value="open"
+                                                >
+                                                      open
+                                                </option>
+                                                <option
+                                                      value="closed"
+                                                >
+                                                      closed
+                                                </option>
+                                          </select>
+                                    </div>
+                              </div>
+                              <hr />
+                              <div
+                                    className="form-row mb-3"
+                              >
+                                    <div
+                                          className="col"
+                                    >
+                                          <label
+                                                htmlFor="date"
+                                          >
+                                                date
+                                          </label>
+                                          <DatePicker
+                                                allowSameDay={false}
+                                                dateFormat="L"
+                                                dateFormatCalendar="MMMM YYYY"
+                                                disabled={false}
+                                                disabledKeyboardNavigation={false}
+                                                dropdownMode="scroll"
+                                                monthsShown={1}
+                                                onBlur={[Function]}
+                                                onChange={[Function]}
+                                                onClickOutside={[Function]}
+                                                onFocus={[Function]}
+                                                onKeyDown={[Function]}
+                                                onMonthChange={[Function]}
+                                                onSelect={[Function]}
+                                                onYearChange={[Function]}
+                                                preventOpenOnFocus={false}
+                                                selected={"2017-11-12T20:41:00.000Z"}
+                                                shouldCloseOnSelect={true}
+                                                showTimeSelect={false}
+                                                timeCaption="Time"
+                                                timeIntervals={30}
+                                                withPortal={false}
+                                          />
+                                    </div>
+                                    <div
+                                          className="col"
+                                    >
+                                          <label
+                                                htmlFor="author"
+                                          >
+                                                author
+                                          </label>
+                                          <div
+                                                className="col input-group p-0"
+                                          >
+                                                <div
+                                                      className="input-group-prepend"
+                                                >
+                                                      <span
+                                                            className="input-group-text"
+                                                            id="basic-addon1"
+                                                      >
+                                                            @
+                                                      </span>
+                                                </div>
+                                                <input
+                                                      aria-describedby="basic-addon1"
+                                                      aria-label="Username"
+                                                      className="form-control"
+                                                      onChange={[Function]}
+                                                      placeholder="Creator"
+                                                      type="text"
+                                                      value=""
+                                                />
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </form>
+            </div>
+            <Card
+                  item={
+                        Object {
+                              "closed_at": null,
+                              "created_at": "2017-11-13T00:11:00+03:30",
+                              "id": 13,
+                              "title": "issue",
+                              "updated_at": "2017-11-13T00:11:00+03:30",
+                              "url": "www.google.com",
+                            }
+                  }
+            />
+            <Card
+                  item={
+                        Object {
+                              "closed_at": "2017-11-13T00:11:00+03:30",
+                              "created_at": "2017-11-13T00:11:00+03:30",
+                              "id": 20,
+                              "title": "issue2",
+                              "updated_at": "2017-11-13T00:11:00+03:30",
+                              "url": "www.google.com",
+                            }
+                  }
+            />
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 1,
+      "_context": Object {},
+      "_currentElement": <Issues
+        data={
+                Array [
+                        Object {
+                          "closed_at": null,
+                          "created_at": "2017-11-13T00:11:00+03:30",
+                          "id": 13,
+                          "title": "issue",
+                          "updated_at": "2017-11-13T00:11:00+03:30",
+                          "url": "www.google.com",
+                        },
+                        Object {
+                          "closed_at": "2017-11-13T00:11:00+03:30",
+                          "created_at": "2017-11-13T00:11:00+03:30",
+                          "id": 20,
+                          "title": "issue2",
+                          "updated_at": "2017-11-13T00:11:00+03:30",
+                          "url": "www.google.com",
+                        },
+                      ]
+        }
+        error={null}
+        loading={false}
+        location={
+                Object {
+                        "search": "?sort=comments&direction=asc&state=open&tags=bug,ui&since=2017-11-13T00:11:00+03:30",
+                      }
+        }
+        name="atom/atom"
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Issues {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "data": Array [
+            Object {
+              "closed_at": null,
+              "created_at": "2017-11-13T00:11:00+03:30",
+              "id": 13,
+              "title": "issue",
+              "updated_at": "2017-11-13T00:11:00+03:30",
+              "url": "www.google.com",
+            },
+            Object {
+              "closed_at": "2017-11-13T00:11:00+03:30",
+              "created_at": "2017-11-13T00:11:00+03:30",
+              "id": 20,
+              "title": "issue2",
+              "updated_at": "2017-11-13T00:11:00+03:30",
+              "url": "www.google.com",
+            },
+          ],
+          "error": null,
+          "loading": false,
+          "location": Object {
+            "search": "?sort=comments&direction=asc&state=open&tags=bug,ui&since=2017-11-13T00:11:00+03:30",
+          },
+          "name": "atom/atom",
+        },
+        "refs": Object {},
+        "renderForm": [Function],
+        "state": Object {
+          "creator": "",
+          "direction": "asc",
+          "redirect": false,
+          "since": "2017-11-12T20:41:00.000Z",
+          "sort": "comments",
+          "state": "open",
+          "tags": Array [
+            "bug",
+            "ui",
+          ],
+          "url": "?sort=comments&direction=asc&state=open&tags=bug,ui&since=2017-11-13T00:11:00+03:30",
+        },
+        "submitFilter": [Function],
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          <div>
+                    <div
+                              className="card text-white bg-success mb-5"
+                    >
+                              <div
+                                        className="card-header d-flex justify-content-between"
+                              >
+                                        <h4>
+                                                  Filter Issues
+                                        </h4>
+                                        <button
+                                                  className="btn btn-danger"
+                                                  onClick={[Function]}
+                                        >
+                                                  Apply
+                                        </button>
+                              </div>
+                              <form>
+                                        <div
+                                                  className="card-body bg-light text-dark"
+                                        >
+                                                  <div
+                                                            className="form-row mb-3"
+                                                  >
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="inputState"
+                                                                      >
+                                                                                Sort by
+                                                                      </label>
+                                                                      <select
+                                                                                className="form-control"
+                                                                                id="inputState"
+                                                                                onChange={[Function]}
+                                                                      >
+                                                                                <option
+                                                                                          value="created"
+                                                                                >
+                                                                                          created
+                                                                                </option>
+                                                                                <option
+                                                                                          value="updated"
+                                                                                >
+                                                                                          updated
+                                                                                </option>
+                                                                                <option
+                                                                                          value="comments"
+                                                                                >
+                                                                                          comments
+                                                                                </option>
+                                                                      </select>
+                                                            </div>
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="inputDirection"
+                                                                      >
+                                                                                Sort direction
+                                                                      </label>
+                                                                      <select
+                                                                                className="form-control"
+                                                                                id="inputState"
+                                                                                onChange={[Function]}
+                                                                      >
+                                                                                <option
+                                                                                          value="desc"
+                                                                                >
+                                                                                          descending
+                                                                                </option>
+                                                                                <option
+                                                                                          value="asc"
+                                                                                >
+                                                                                          ascending
+                                                                                </option>
+                                                                      </select>
+                                                            </div>
+                                                  </div>
+                                                  <hr />
+                                                  <div
+                                                            className="form-row mb-3"
+                                                  >
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="inputTags"
+                                                                      >
+                                                                                Labels
+                                                                      </label>
+                                                                      <TagsInput
+                                                                                addKeys={
+                                                                                          Array [
+                                                                                                    9,
+                                                                                                    13,
+                                                                                                  ]
+                                                                                }
+                                                                                addOnBlur={false}
+                                                                                addOnPaste={false}
+                                                                                className="react-tagsinput"
+                                                                                disabled={false}
+                                                                                focusedClassName="react-tagsinput--focused"
+                                                                                inputProps={Object {}}
+                                                                                maxTags={-1}
+                                                                                onChange={[Function]}
+                                                                                onlyUnique={false}
+                                                                                pasteSplit={[Function]}
+                                                                                preventSubmit={true}
+                                                                                removeKeys={
+                                                                                          Array [
+                                                                                                    8,
+                                                                                                  ]
+                                                                                }
+                                                                                renderInput={[Function]}
+                                                                                renderLayout={[Function]}
+                                                                                renderTag={[Function]}
+                                                                                tagDisplayProp={null}
+                                                                                tagProps={
+                                                                                          Object {
+                                                                                                    "className": "react-tagsinput-tag",
+                                                                                                    "classNameRemove": "react-tagsinput-remove",
+                                                                                                  }
+                                                                                }
+                                                                                validationRegex={/\\.\\*/}
+                                                                                value={
+                                                                                          Array [
+                                                                                                    "bug",
+                                                                                                    "ui",
+                                                                                                  ]
+                                                                                }
+                                                                      />
+                                                            </div>
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="inputState"
+                                                                      >
+                                                                                State
+                                                                      </label>
+                                                                      <select
+                                                                                className="form-control"
+                                                                                id="inputState"
+                                                                                onChange={[Function]}
+                                                                      >
+                                                                                <option
+                                                                                          value="all"
+                                                                                >
+                                                                                          all
+                                                                                </option>
+                                                                                <option
+                                                                                          value="open"
+                                                                                >
+                                                                                          open
+                                                                                </option>
+                                                                                <option
+                                                                                          value="closed"
+                                                                                >
+                                                                                          closed
+                                                                                </option>
+                                                                      </select>
+                                                            </div>
+                                                  </div>
+                                                  <hr />
+                                                  <div
+                                                            className="form-row mb-3"
+                                                  >
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="date"
+                                                                      >
+                                                                                date
+                                                                      </label>
+                                                                      <DatePicker
+                                                                                allowSameDay={false}
+                                                                                dateFormat="L"
+                                                                                dateFormatCalendar="MMMM YYYY"
+                                                                                disabled={false}
+                                                                                disabledKeyboardNavigation={false}
+                                                                                dropdownMode="scroll"
+                                                                                monthsShown={1}
+                                                                                onBlur={[Function]}
+                                                                                onChange={[Function]}
+                                                                                onClickOutside={[Function]}
+                                                                                onFocus={[Function]}
+                                                                                onKeyDown={[Function]}
+                                                                                onMonthChange={[Function]}
+                                                                                onSelect={[Function]}
+                                                                                onYearChange={[Function]}
+                                                                                preventOpenOnFocus={false}
+                                                                                selected={"2017-11-12T20:41:00.000Z"}
+                                                                                shouldCloseOnSelect={true}
+                                                                                showTimeSelect={false}
+                                                                                timeCaption="Time"
+                                                                                timeIntervals={30}
+                                                                                withPortal={false}
+                                                                      />
+                                                            </div>
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="author"
+                                                                      >
+                                                                                author
+                                                                      </label>
+                                                                      <div
+                                                                                className="col input-group p-0"
+                                                                      >
+                                                                                <div
+                                                                                          className="input-group-prepend"
+                                                                                >
+                                                                                          <span
+                                                                                                    className="input-group-text"
+                                                                                                    id="basic-addon1"
+                                                                                          >
+                                                                                                    @
+                                                                                          </span>
+                                                                                </div>
+                                                                                <input
+                                                                                          aria-describedby="basic-addon1"
+                                                                                          aria-label="Username"
+                                                                                          className="form-control"
+                                                                                          onChange={[Function]}
+                                                                                          placeholder="Creator"
+                                                                                          type="text"
+                                                                                          value=""
+                                                                                />
+                                                                      </div>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                              </form>
+                    </div>
+                    <Card
+                              item={
+                                        Object {
+                                                  "closed_at": null,
+                                                  "created_at": "2017-11-13T00:11:00+03:30",
+                                                  "id": 13,
+                                                  "title": "issue",
+                                                  "updated_at": "2017-11-13T00:11:00+03:30",
+                                                  "url": "www.google.com",
+                                                }
+                              }
+                    />
+                    <Card
+                              item={
+                                        Object {
+                                                  "closed_at": "2017-11-13T00:11:00+03:30",
+                                                  "created_at": "2017-11-13T00:11:00+03:30",
+                                                  "id": 20,
+                                                  "title": "issue2",
+                                                  "updated_at": "2017-11-13T00:11:00+03:30",
+                                                  "url": "www.google.com",
+                                                }
+                              }
+                    />
+          </div>
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div>
+          <div>
+                    <div
+                              className="card text-white bg-success mb-5"
+                    >
+                              <div
+                                        className="card-header d-flex justify-content-between"
+                              >
+                                        <h4>
+                                                  Filter Issues
+                                        </h4>
+                                        <button
+                                                  className="btn btn-danger"
+                                                  onClick={[Function]}
+                                        >
+                                                  Apply
+                                        </button>
+                              </div>
+                              <form>
+                                        <div
+                                                  className="card-body bg-light text-dark"
+                                        >
+                                                  <div
+                                                            className="form-row mb-3"
+                                                  >
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="inputState"
+                                                                      >
+                                                                                Sort by
+                                                                      </label>
+                                                                      <select
+                                                                                className="form-control"
+                                                                                id="inputState"
+                                                                                onChange={[Function]}
+                                                                      >
+                                                                                <option
+                                                                                          value="created"
+                                                                                >
+                                                                                          created
+                                                                                </option>
+                                                                                <option
+                                                                                          value="updated"
+                                                                                >
+                                                                                          updated
+                                                                                </option>
+                                                                                <option
+                                                                                          value="comments"
+                                                                                >
+                                                                                          comments
+                                                                                </option>
+                                                                      </select>
+                                                            </div>
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="inputDirection"
+                                                                      >
+                                                                                Sort direction
+                                                                      </label>
+                                                                      <select
+                                                                                className="form-control"
+                                                                                id="inputState"
+                                                                                onChange={[Function]}
+                                                                      >
+                                                                                <option
+                                                                                          value="desc"
+                                                                                >
+                                                                                          descending
+                                                                                </option>
+                                                                                <option
+                                                                                          value="asc"
+                                                                                >
+                                                                                          ascending
+                                                                                </option>
+                                                                      </select>
+                                                            </div>
+                                                  </div>
+                                                  <hr />
+                                                  <div
+                                                            className="form-row mb-3"
+                                                  >
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="inputTags"
+                                                                      >
+                                                                                Labels
+                                                                      </label>
+                                                                      <TagsInput
+                                                                                addKeys={
+                                                                                          Array [
+                                                                                                    9,
+                                                                                                    13,
+                                                                                                  ]
+                                                                                }
+                                                                                addOnBlur={false}
+                                                                                addOnPaste={false}
+                                                                                className="react-tagsinput"
+                                                                                disabled={false}
+                                                                                focusedClassName="react-tagsinput--focused"
+                                                                                inputProps={Object {}}
+                                                                                maxTags={-1}
+                                                                                onChange={[Function]}
+                                                                                onlyUnique={false}
+                                                                                pasteSplit={[Function]}
+                                                                                preventSubmit={true}
+                                                                                removeKeys={
+                                                                                          Array [
+                                                                                                    8,
+                                                                                                  ]
+                                                                                }
+                                                                                renderInput={[Function]}
+                                                                                renderLayout={[Function]}
+                                                                                renderTag={[Function]}
+                                                                                tagDisplayProp={null}
+                                                                                tagProps={
+                                                                                          Object {
+                                                                                                    "className": "react-tagsinput-tag",
+                                                                                                    "classNameRemove": "react-tagsinput-remove",
+                                                                                                  }
+                                                                                }
+                                                                                validationRegex={/\\.\\*/}
+                                                                                value={
+                                                                                          Array [
+                                                                                                    "bug",
+                                                                                                    "ui",
+                                                                                                  ]
+                                                                                }
+                                                                      />
+                                                            </div>
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="inputState"
+                                                                      >
+                                                                                State
+                                                                      </label>
+                                                                      <select
+                                                                                className="form-control"
+                                                                                id="inputState"
+                                                                                onChange={[Function]}
+                                                                      >
+                                                                                <option
+                                                                                          value="all"
+                                                                                >
+                                                                                          all
+                                                                                </option>
+                                                                                <option
+                                                                                          value="open"
+                                                                                >
+                                                                                          open
+                                                                                </option>
+                                                                                <option
+                                                                                          value="closed"
+                                                                                >
+                                                                                          closed
+                                                                                </option>
+                                                                      </select>
+                                                            </div>
+                                                  </div>
+                                                  <hr />
+                                                  <div
+                                                            className="form-row mb-3"
+                                                  >
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="date"
+                                                                      >
+                                                                                date
+                                                                      </label>
+                                                                      <DatePicker
+                                                                                allowSameDay={false}
+                                                                                dateFormat="L"
+                                                                                dateFormatCalendar="MMMM YYYY"
+                                                                                disabled={false}
+                                                                                disabledKeyboardNavigation={false}
+                                                                                dropdownMode="scroll"
+                                                                                monthsShown={1}
+                                                                                onBlur={[Function]}
+                                                                                onChange={[Function]}
+                                                                                onClickOutside={[Function]}
+                                                                                onFocus={[Function]}
+                                                                                onKeyDown={[Function]}
+                                                                                onMonthChange={[Function]}
+                                                                                onSelect={[Function]}
+                                                                                onYearChange={[Function]}
+                                                                                preventOpenOnFocus={false}
+                                                                                selected={"2017-11-12T20:41:00.000Z"}
+                                                                                shouldCloseOnSelect={true}
+                                                                                showTimeSelect={false}
+                                                                                timeCaption="Time"
+                                                                                timeIntervals={30}
+                                                                                withPortal={false}
+                                                                      />
+                                                            </div>
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="author"
+                                                                      >
+                                                                                author
+                                                                      </label>
+                                                                      <div
+                                                                                className="col input-group p-0"
+                                                                      >
+                                                                                <div
+                                                                                          className="input-group-prepend"
+                                                                                >
+                                                                                          <span
+                                                                                                    className="input-group-text"
+                                                                                                    id="basic-addon1"
+                                                                                          >
+                                                                                                    @
+                                                                                          </span>
+                                                                                </div>
+                                                                                <input
+                                                                                          aria-describedby="basic-addon1"
+                                                                                          aria-label="Username"
+                                                                                          className="form-control"
+                                                                                          onChange={[Function]}
+                                                                                          placeholder="Creator"
+                                                                                          type="text"
+                                                                                          value=""
+                                                                                />
+                                                                      </div>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                              </form>
+                    </div>
+                    <Card
+                              item={
+                                        Object {
+                                                  "closed_at": null,
+                                                  "created_at": "2017-11-13T00:11:00+03:30",
+                                                  "id": 13,
+                                                  "title": "issue",
+                                                  "updated_at": "2017-11-13T00:11:00+03:30",
+                                                  "url": "www.google.com",
+                                                }
+                              }
+                    />
+                    <Card
+                              item={
+                                        Object {
+                                                  "closed_at": "2017-11-13T00:11:00+03:30",
+                                                  "created_at": "2017-11-13T00:11:00+03:30",
+                                                  "id": 20,
+                                                  "title": "issue2",
+                                                  "updated_at": "2017-11-13T00:11:00+03:30",
+                                                  "url": "www.google.com",
+                                                }
+                              }
+                    />
+          </div>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Issues
+    data={
+        Array [
+            Object {
+              "closed_at": null,
+              "created_at": "2017-11-13T00:11:00+03:30",
+              "id": 13,
+              "title": "issue",
+              "updated_at": "2017-11-13T00:11:00+03:30",
+              "url": "www.google.com",
+            },
+            Object {
+              "closed_at": "2017-11-13T00:11:00+03:30",
+              "created_at": "2017-11-13T00:11:00+03:30",
+              "id": 20,
+              "title": "issue2",
+              "updated_at": "2017-11-13T00:11:00+03:30",
+              "url": "www.google.com",
+            },
+          ]
+    }
+    error={null}
+    loading={false}
+    location={
+        Object {
+            "search": "?sort=comments&direction=asc&state=open&tags=bug,ui&since=2017-11-13T00:11:00+03:30",
+          }
+    }
+    name="atom/atom"
+/>,
+}
+`;
+
+exports[`Issues Page should render the loading case 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <div
+        className="loading"
+    >
+        <img
+            alt="loading..."
+            className="loading-icon"
+            src="IMAGE_MOCK"
+        />
+    </div>
+</div>,
+  "nodes": Array [
+    <div>
+      <div
+            className="loading"
+      >
+            <img
+                  alt="loading..."
+                  className="loading-icon"
+                  src="IMAGE_MOCK"
+            />
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 1,
+      "_context": Object {},
+      "_currentElement": <Issues
+        data={
+                Array [
+                        Object {
+                          "closed_at": null,
+                          "created_at": "2017-11-13T00:11:00+03:30",
+                          "id": 13,
+                          "title": "issue",
+                          "updated_at": "2017-11-13T00:11:00+03:30",
+                          "url": "www.google.com",
+                        },
+                        Object {
+                          "closed_at": "2017-11-13T00:11:00+03:30",
+                          "created_at": "2017-11-13T00:11:00+03:30",
+                          "id": 20,
+                          "title": "issue2",
+                          "updated_at": "2017-11-13T00:11:00+03:30",
+                          "url": "www.google.com",
+                        },
+                      ]
+        }
+        error={null}
+        loading={true}
+        location={
+                Object {
+                        "search": "?sort=comments&direction=asc&state=open&tags=bug,ui&since=2017-11-13T00:11:00+03:30",
+                      }
+        }
+        name="atom/atom"
+/>,
+      "_debugID": 3,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Issues {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "data": Array [
+            Object {
+              "closed_at": null,
+              "created_at": "2017-11-13T00:11:00+03:30",
+              "id": 13,
+              "title": "issue",
+              "updated_at": "2017-11-13T00:11:00+03:30",
+              "url": "www.google.com",
+            },
+            Object {
+              "closed_at": "2017-11-13T00:11:00+03:30",
+              "created_at": "2017-11-13T00:11:00+03:30",
+              "id": 20,
+              "title": "issue2",
+              "updated_at": "2017-11-13T00:11:00+03:30",
+              "url": "www.google.com",
+            },
+          ],
+          "error": null,
+          "loading": true,
+          "location": Object {
+            "search": "?sort=comments&direction=asc&state=open&tags=bug,ui&since=2017-11-13T00:11:00+03:30",
+          },
+          "name": "atom/atom",
+        },
+        "refs": Object {},
+        "renderForm": [Function],
+        "state": Object {
+          "creator": "",
+          "direction": "asc",
+          "redirect": false,
+          "since": "2017-11-12T20:41:00.000Z",
+          "sort": "comments",
+          "state": "open",
+          "tags": Array [
+            "bug",
+            "ui",
+          ],
+          "url": "?sort=comments&direction=asc&state=open&tags=bug,ui&since=2017-11-13T00:11:00+03:30",
+        },
+        "submitFilter": [Function],
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          <div
+                    className="loading"
+          >
+                    <img
+                              alt="loading..."
+                              className="loading-icon"
+                              src="IMAGE_MOCK"
+                    />
+          </div>
+</div>,
+        "_debugID": 4,
+        "_renderedOutput": <div>
+          <div
+                    className="loading"
+          >
+                    <img
+                              alt="loading..."
+                              className="loading-icon"
+                              src="IMAGE_MOCK"
+                    />
+          </div>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Issues
+    data={
+        Array [
+            Object {
+              "closed_at": null,
+              "created_at": "2017-11-13T00:11:00+03:30",
+              "id": 13,
+              "title": "issue",
+              "updated_at": "2017-11-13T00:11:00+03:30",
+              "url": "www.google.com",
+            },
+            Object {
+              "closed_at": "2017-11-13T00:11:00+03:30",
+              "created_at": "2017-11-13T00:11:00+03:30",
+              "id": 20,
+              "title": "issue2",
+              "updated_at": "2017-11-13T00:11:00+03:30",
+              "url": "www.google.com",
+            },
+          ]
+    }
+    error={null}
+    loading={true}
+    location={
+        Object {
+            "search": "?sort=comments&direction=asc&state=open&tags=bug,ui&since=2017-11-13T00:11:00+03:30",
+          }
+    }
+    name="atom/atom"
+/>,
+}
+`;
+
+exports[`Issues Page should render the no search case 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <div>
+        <div
+            className="card text-white bg-success mb-5"
+        >
+            <div
+                className="card-header d-flex justify-content-between"
+            >
+                <h4>
+                    Filter Issues
+                </h4>
+                <button
+                    className="btn btn-danger"
+                    onClick={[Function]}
+                >
+                    Apply
+                </button>
+            </div>
+            <form>
+                <div
+                    className="card-body bg-light text-dark"
+                >
+                    <div
+                        className="form-row mb-3"
+                    >
+                        <div
+                            className="col"
+                        >
+                            <label
+                                htmlFor="inputState"
+                            >
+                                Sort by
+                            </label>
+                            <select
+                                className="form-control"
+                                id="inputState"
+                                onChange={[Function]}
+                            >
+                                <option
+                                    value="created"
+                                >
+                                    created
+                                </option>
+                                <option
+                                    value="updated"
+                                >
+                                    updated
+                                </option>
+                                <option
+                                    value="comments"
+                                >
+                                    comments
+                                </option>
+                            </select>
+                        </div>
+                        <div
+                            className="col"
+                        >
+                            <label
+                                htmlFor="inputDirection"
+                            >
+                                Sort direction
+                            </label>
+                            <select
+                                className="form-control"
+                                id="inputState"
+                                onChange={[Function]}
+                            >
+                                <option
+                                    value="desc"
+                                >
+                                    descending
+                                </option>
+                                <option
+                                    value="asc"
+                                >
+                                    ascending
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <hr />
+                    <div
+                        className="form-row mb-3"
+                    >
+                        <div
+                            className="col"
+                        >
+                            <label
+                                htmlFor="inputTags"
+                            >
+                                Labels
+                            </label>
+                            <TagsInput
+                                addKeys={
+                                    Array [
+                                        9,
+                                        13,
+                                      ]
+                                }
+                                addOnBlur={false}
+                                addOnPaste={false}
+                                className="react-tagsinput"
+                                disabled={false}
+                                focusedClassName="react-tagsinput--focused"
+                                inputProps={Object {}}
+                                maxTags={-1}
+                                onChange={[Function]}
+                                onlyUnique={false}
+                                pasteSplit={[Function]}
+                                preventSubmit={true}
+                                removeKeys={
+                                    Array [
+                                        8,
+                                      ]
+                                }
+                                renderInput={[Function]}
+                                renderLayout={[Function]}
+                                renderTag={[Function]}
+                                tagDisplayProp={null}
+                                tagProps={
+                                    Object {
+                                        "className": "react-tagsinput-tag",
+                                        "classNameRemove": "react-tagsinput-remove",
+                                      }
+                                }
+                                validationRegex={/\\.\\*/}
+                                value={
+                                    Array [
+                                        "bug",
+                                        "ui",
+                                      ]
+                                }
+                            />
+                        </div>
+                        <div
+                            className="col"
+                        >
+                            <label
+                                htmlFor="inputState"
+                            >
+                                State
+                            </label>
+                            <select
+                                className="form-control"
+                                id="inputState"
+                                onChange={[Function]}
+                            >
+                                <option
+                                    value="all"
+                                >
+                                    all
+                                </option>
+                                <option
+                                    value="open"
+                                >
+                                    open
+                                </option>
+                                <option
+                                    value="closed"
+                                >
+                                    closed
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <hr />
+                    <div
+                        className="form-row mb-3"
+                    >
+                        <div
+                            className="col"
+                        >
+                            <label
+                                htmlFor="date"
+                            >
+                                date
+                            </label>
+                            <DatePicker
+                                allowSameDay={false}
+                                dateFormat="L"
+                                dateFormatCalendar="MMMM YYYY"
+                                disabled={false}
+                                disabledKeyboardNavigation={false}
+                                dropdownMode="scroll"
+                                monthsShown={1}
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onClickOutside={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onMonthChange={[Function]}
+                                onSelect={[Function]}
+                                onYearChange={[Function]}
+                                preventOpenOnFocus={false}
+                                selected={"2017-11-12T20:41:00.000Z"}
+                                shouldCloseOnSelect={true}
+                                showTimeSelect={false}
+                                timeCaption="Time"
+                                timeIntervals={30}
+                                withPortal={false}
+                            />
+                        </div>
+                        <div
+                            className="col"
+                        >
+                            <label
+                                htmlFor="author"
+                            >
+                                author
+                            </label>
+                            <div
+                                className="col input-group p-0"
+                            >
+                                <div
+                                    className="input-group-prepend"
+                                >
+                                    <span
+                                        className="input-group-text"
+                                        id="basic-addon1"
+                                    >
+                                        @
+                                    </span>
+                                </div>
+                                <input
+                                    aria-describedby="basic-addon1"
+                                    aria-label="Username"
+                                    className="form-control"
+                                    onChange={[Function]}
+                                    placeholder="Creator"
+                                    type="text"
+                                    value=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <Card
+            item={
+                Object {
+                    "closed_at": null,
+                    "created_at": "2017-11-13T00:11:00+03:30",
+                    "id": 13,
+                    "title": "issue",
+                    "updated_at": "2017-11-13T00:11:00+03:30",
+                    "url": "www.google.com",
+                  }
+            }
+        />
+        <Card
+            item={
+                Object {
+                    "closed_at": "2017-11-13T00:11:00+03:30",
+                    "created_at": "2017-11-13T00:11:00+03:30",
+                    "id": 20,
+                    "title": "issue2",
+                    "updated_at": "2017-11-13T00:11:00+03:30",
+                    "url": "www.google.com",
+                  }
+            }
+        />
+    </div>
+</div>,
+  "nodes": Array [
+    <div>
+      <div>
+            <div
+                  className="card text-white bg-success mb-5"
+            >
+                  <div
+                        className="card-header d-flex justify-content-between"
+                  >
+                        <h4>
+                              Filter Issues
+                        </h4>
+                        <button
+                              className="btn btn-danger"
+                              onClick={[Function]}
+                        >
+                              Apply
+                        </button>
+                  </div>
+                  <form>
+                        <div
+                              className="card-body bg-light text-dark"
+                        >
+                              <div
+                                    className="form-row mb-3"
+                              >
+                                    <div
+                                          className="col"
+                                    >
+                                          <label
+                                                htmlFor="inputState"
+                                          >
+                                                Sort by
+                                          </label>
+                                          <select
+                                                className="form-control"
+                                                id="inputState"
+                                                onChange={[Function]}
+                                          >
+                                                <option
+                                                      value="created"
+                                                >
+                                                      created
+                                                </option>
+                                                <option
+                                                      value="updated"
+                                                >
+                                                      updated
+                                                </option>
+                                                <option
+                                                      value="comments"
+                                                >
+                                                      comments
+                                                </option>
+                                          </select>
+                                    </div>
+                                    <div
+                                          className="col"
+                                    >
+                                          <label
+                                                htmlFor="inputDirection"
+                                          >
+                                                Sort direction
+                                          </label>
+                                          <select
+                                                className="form-control"
+                                                id="inputState"
+                                                onChange={[Function]}
+                                          >
+                                                <option
+                                                      value="desc"
+                                                >
+                                                      descending
+                                                </option>
+                                                <option
+                                                      value="asc"
+                                                >
+                                                      ascending
+                                                </option>
+                                          </select>
+                                    </div>
+                              </div>
+                              <hr />
+                              <div
+                                    className="form-row mb-3"
+                              >
+                                    <div
+                                          className="col"
+                                    >
+                                          <label
+                                                htmlFor="inputTags"
+                                          >
+                                                Labels
+                                          </label>
+                                          <TagsInput
+                                                addKeys={
+                                                      Array [
+                                                            9,
+                                                            13,
+                                                          ]
+                                                }
+                                                addOnBlur={false}
+                                                addOnPaste={false}
+                                                className="react-tagsinput"
+                                                disabled={false}
+                                                focusedClassName="react-tagsinput--focused"
+                                                inputProps={Object {}}
+                                                maxTags={-1}
+                                                onChange={[Function]}
+                                                onlyUnique={false}
+                                                pasteSplit={[Function]}
+                                                preventSubmit={true}
+                                                removeKeys={
+                                                      Array [
+                                                            8,
+                                                          ]
+                                                }
+                                                renderInput={[Function]}
+                                                renderLayout={[Function]}
+                                                renderTag={[Function]}
+                                                tagDisplayProp={null}
+                                                tagProps={
+                                                      Object {
+                                                            "className": "react-tagsinput-tag",
+                                                            "classNameRemove": "react-tagsinput-remove",
+                                                          }
+                                                }
+                                                validationRegex={/\\.\\*/}
+                                                value={
+                                                      Array [
+                                                            "bug",
+                                                            "ui",
+                                                          ]
+                                                }
+                                          />
+                                    </div>
+                                    <div
+                                          className="col"
+                                    >
+                                          <label
+                                                htmlFor="inputState"
+                                          >
+                                                State
+                                          </label>
+                                          <select
+                                                className="form-control"
+                                                id="inputState"
+                                                onChange={[Function]}
+                                          >
+                                                <option
+                                                      value="all"
+                                                >
+                                                      all
+                                                </option>
+                                                <option
+                                                      value="open"
+                                                >
+                                                      open
+                                                </option>
+                                                <option
+                                                      value="closed"
+                                                >
+                                                      closed
+                                                </option>
+                                          </select>
+                                    </div>
+                              </div>
+                              <hr />
+                              <div
+                                    className="form-row mb-3"
+                              >
+                                    <div
+                                          className="col"
+                                    >
+                                          <label
+                                                htmlFor="date"
+                                          >
+                                                date
+                                          </label>
+                                          <DatePicker
+                                                allowSameDay={false}
+                                                dateFormat="L"
+                                                dateFormatCalendar="MMMM YYYY"
+                                                disabled={false}
+                                                disabledKeyboardNavigation={false}
+                                                dropdownMode="scroll"
+                                                monthsShown={1}
+                                                onBlur={[Function]}
+                                                onChange={[Function]}
+                                                onClickOutside={[Function]}
+                                                onFocus={[Function]}
+                                                onKeyDown={[Function]}
+                                                onMonthChange={[Function]}
+                                                onSelect={[Function]}
+                                                onYearChange={[Function]}
+                                                preventOpenOnFocus={false}
+                                                selected={"2017-11-12T20:41:00.000Z"}
+                                                shouldCloseOnSelect={true}
+                                                showTimeSelect={false}
+                                                timeCaption="Time"
+                                                timeIntervals={30}
+                                                withPortal={false}
+                                          />
+                                    </div>
+                                    <div
+                                          className="col"
+                                    >
+                                          <label
+                                                htmlFor="author"
+                                          >
+                                                author
+                                          </label>
+                                          <div
+                                                className="col input-group p-0"
+                                          >
+                                                <div
+                                                      className="input-group-prepend"
+                                                >
+                                                      <span
+                                                            className="input-group-text"
+                                                            id="basic-addon1"
+                                                      >
+                                                            @
+                                                      </span>
+                                                </div>
+                                                <input
+                                                      aria-describedby="basic-addon1"
+                                                      aria-label="Username"
+                                                      className="form-control"
+                                                      onChange={[Function]}
+                                                      placeholder="Creator"
+                                                      type="text"
+                                                      value=""
+                                                />
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </form>
+            </div>
+            <Card
+                  item={
+                        Object {
+                              "closed_at": null,
+                              "created_at": "2017-11-13T00:11:00+03:30",
+                              "id": 13,
+                              "title": "issue",
+                              "updated_at": "2017-11-13T00:11:00+03:30",
+                              "url": "www.google.com",
+                            }
+                  }
+            />
+            <Card
+                  item={
+                        Object {
+                              "closed_at": "2017-11-13T00:11:00+03:30",
+                              "created_at": "2017-11-13T00:11:00+03:30",
+                              "id": 20,
+                              "title": "issue2",
+                              "updated_at": "2017-11-13T00:11:00+03:30",
+                              "url": "www.google.com",
+                            }
+                  }
+            />
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 1,
+      "_context": Object {},
+      "_currentElement": <Issues
+        data={
+                Array [
+                        Object {
+                          "closed_at": null,
+                          "created_at": "2017-11-13T00:11:00+03:30",
+                          "id": 13,
+                          "title": "issue",
+                          "updated_at": "2017-11-13T00:11:00+03:30",
+                          "url": "www.google.com",
+                        },
+                        Object {
+                          "closed_at": "2017-11-13T00:11:00+03:30",
+                          "created_at": "2017-11-13T00:11:00+03:30",
+                          "id": 20,
+                          "title": "issue2",
+                          "updated_at": "2017-11-13T00:11:00+03:30",
+                          "url": "www.google.com",
+                        },
+                      ]
+        }
+        error={null}
+        loading={false}
+        location={
+                Object {
+                        "search": "?sort=comments&direction=asc&state=open&tags=bug,ui&since=2017-11-13T00:11:00+03:30",
+                      }
+        }
+        name="atom/atom"
+        search=""
+/>,
+      "_debugID": 5,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Issues {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "data": Array [
+            Object {
+              "closed_at": null,
+              "created_at": "2017-11-13T00:11:00+03:30",
+              "id": 13,
+              "title": "issue",
+              "updated_at": "2017-11-13T00:11:00+03:30",
+              "url": "www.google.com",
+            },
+            Object {
+              "closed_at": "2017-11-13T00:11:00+03:30",
+              "created_at": "2017-11-13T00:11:00+03:30",
+              "id": 20,
+              "title": "issue2",
+              "updated_at": "2017-11-13T00:11:00+03:30",
+              "url": "www.google.com",
+            },
+          ],
+          "error": null,
+          "loading": false,
+          "location": Object {
+            "search": "?sort=comments&direction=asc&state=open&tags=bug,ui&since=2017-11-13T00:11:00+03:30",
+          },
+          "name": "atom/atom",
+          "search": "",
+        },
+        "refs": Object {},
+        "renderForm": [Function],
+        "state": Object {
+          "creator": "",
+          "direction": "asc",
+          "redirect": false,
+          "since": "2017-11-12T20:41:00.000Z",
+          "sort": "comments",
+          "state": "open",
+          "tags": Array [
+            "bug",
+            "ui",
+          ],
+          "url": "?sort=comments&direction=asc&state=open&tags=bug,ui&since=2017-11-13T00:11:00+03:30",
+        },
+        "submitFilter": [Function],
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 3,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          <div>
+                    <div
+                              className="card text-white bg-success mb-5"
+                    >
+                              <div
+                                        className="card-header d-flex justify-content-between"
+                              >
+                                        <h4>
+                                                  Filter Issues
+                                        </h4>
+                                        <button
+                                                  className="btn btn-danger"
+                                                  onClick={[Function]}
+                                        >
+                                                  Apply
+                                        </button>
+                              </div>
+                              <form>
+                                        <div
+                                                  className="card-body bg-light text-dark"
+                                        >
+                                                  <div
+                                                            className="form-row mb-3"
+                                                  >
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="inputState"
+                                                                      >
+                                                                                Sort by
+                                                                      </label>
+                                                                      <select
+                                                                                className="form-control"
+                                                                                id="inputState"
+                                                                                onChange={[Function]}
+                                                                      >
+                                                                                <option
+                                                                                          value="created"
+                                                                                >
+                                                                                          created
+                                                                                </option>
+                                                                                <option
+                                                                                          value="updated"
+                                                                                >
+                                                                                          updated
+                                                                                </option>
+                                                                                <option
+                                                                                          value="comments"
+                                                                                >
+                                                                                          comments
+                                                                                </option>
+                                                                      </select>
+                                                            </div>
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="inputDirection"
+                                                                      >
+                                                                                Sort direction
+                                                                      </label>
+                                                                      <select
+                                                                                className="form-control"
+                                                                                id="inputState"
+                                                                                onChange={[Function]}
+                                                                      >
+                                                                                <option
+                                                                                          value="desc"
+                                                                                >
+                                                                                          descending
+                                                                                </option>
+                                                                                <option
+                                                                                          value="asc"
+                                                                                >
+                                                                                          ascending
+                                                                                </option>
+                                                                      </select>
+                                                            </div>
+                                                  </div>
+                                                  <hr />
+                                                  <div
+                                                            className="form-row mb-3"
+                                                  >
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="inputTags"
+                                                                      >
+                                                                                Labels
+                                                                      </label>
+                                                                      <TagsInput
+                                                                                addKeys={
+                                                                                          Array [
+                                                                                                    9,
+                                                                                                    13,
+                                                                                                  ]
+                                                                                }
+                                                                                addOnBlur={false}
+                                                                                addOnPaste={false}
+                                                                                className="react-tagsinput"
+                                                                                disabled={false}
+                                                                                focusedClassName="react-tagsinput--focused"
+                                                                                inputProps={Object {}}
+                                                                                maxTags={-1}
+                                                                                onChange={[Function]}
+                                                                                onlyUnique={false}
+                                                                                pasteSplit={[Function]}
+                                                                                preventSubmit={true}
+                                                                                removeKeys={
+                                                                                          Array [
+                                                                                                    8,
+                                                                                                  ]
+                                                                                }
+                                                                                renderInput={[Function]}
+                                                                                renderLayout={[Function]}
+                                                                                renderTag={[Function]}
+                                                                                tagDisplayProp={null}
+                                                                                tagProps={
+                                                                                          Object {
+                                                                                                    "className": "react-tagsinput-tag",
+                                                                                                    "classNameRemove": "react-tagsinput-remove",
+                                                                                                  }
+                                                                                }
+                                                                                validationRegex={/\\.\\*/}
+                                                                                value={
+                                                                                          Array [
+                                                                                                    "bug",
+                                                                                                    "ui",
+                                                                                                  ]
+                                                                                }
+                                                                      />
+                                                            </div>
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="inputState"
+                                                                      >
+                                                                                State
+                                                                      </label>
+                                                                      <select
+                                                                                className="form-control"
+                                                                                id="inputState"
+                                                                                onChange={[Function]}
+                                                                      >
+                                                                                <option
+                                                                                          value="all"
+                                                                                >
+                                                                                          all
+                                                                                </option>
+                                                                                <option
+                                                                                          value="open"
+                                                                                >
+                                                                                          open
+                                                                                </option>
+                                                                                <option
+                                                                                          value="closed"
+                                                                                >
+                                                                                          closed
+                                                                                </option>
+                                                                      </select>
+                                                            </div>
+                                                  </div>
+                                                  <hr />
+                                                  <div
+                                                            className="form-row mb-3"
+                                                  >
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="date"
+                                                                      >
+                                                                                date
+                                                                      </label>
+                                                                      <DatePicker
+                                                                                allowSameDay={false}
+                                                                                dateFormat="L"
+                                                                                dateFormatCalendar="MMMM YYYY"
+                                                                                disabled={false}
+                                                                                disabledKeyboardNavigation={false}
+                                                                                dropdownMode="scroll"
+                                                                                monthsShown={1}
+                                                                                onBlur={[Function]}
+                                                                                onChange={[Function]}
+                                                                                onClickOutside={[Function]}
+                                                                                onFocus={[Function]}
+                                                                                onKeyDown={[Function]}
+                                                                                onMonthChange={[Function]}
+                                                                                onSelect={[Function]}
+                                                                                onYearChange={[Function]}
+                                                                                preventOpenOnFocus={false}
+                                                                                selected={"2017-11-12T20:41:00.000Z"}
+                                                                                shouldCloseOnSelect={true}
+                                                                                showTimeSelect={false}
+                                                                                timeCaption="Time"
+                                                                                timeIntervals={30}
+                                                                                withPortal={false}
+                                                                      />
+                                                            </div>
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="author"
+                                                                      >
+                                                                                author
+                                                                      </label>
+                                                                      <div
+                                                                                className="col input-group p-0"
+                                                                      >
+                                                                                <div
+                                                                                          className="input-group-prepend"
+                                                                                >
+                                                                                          <span
+                                                                                                    className="input-group-text"
+                                                                                                    id="basic-addon1"
+                                                                                          >
+                                                                                                    @
+                                                                                          </span>
+                                                                                </div>
+                                                                                <input
+                                                                                          aria-describedby="basic-addon1"
+                                                                                          aria-label="Username"
+                                                                                          className="form-control"
+                                                                                          onChange={[Function]}
+                                                                                          placeholder="Creator"
+                                                                                          type="text"
+                                                                                          value=""
+                                                                                />
+                                                                      </div>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                              </form>
+                    </div>
+                    <Card
+                              item={
+                                        Object {
+                                                  "closed_at": null,
+                                                  "created_at": "2017-11-13T00:11:00+03:30",
+                                                  "id": 13,
+                                                  "title": "issue",
+                                                  "updated_at": "2017-11-13T00:11:00+03:30",
+                                                  "url": "www.google.com",
+                                                }
+                              }
+                    />
+                    <Card
+                              item={
+                                        Object {
+                                                  "closed_at": "2017-11-13T00:11:00+03:30",
+                                                  "created_at": "2017-11-13T00:11:00+03:30",
+                                                  "id": 20,
+                                                  "title": "issue2",
+                                                  "updated_at": "2017-11-13T00:11:00+03:30",
+                                                  "url": "www.google.com",
+                                                }
+                              }
+                    />
+          </div>
+</div>,
+        "_debugID": 6,
+        "_renderedOutput": <div>
+          <div>
+                    <div
+                              className="card text-white bg-success mb-5"
+                    >
+                              <div
+                                        className="card-header d-flex justify-content-between"
+                              >
+                                        <h4>
+                                                  Filter Issues
+                                        </h4>
+                                        <button
+                                                  className="btn btn-danger"
+                                                  onClick={[Function]}
+                                        >
+                                                  Apply
+                                        </button>
+                              </div>
+                              <form>
+                                        <div
+                                                  className="card-body bg-light text-dark"
+                                        >
+                                                  <div
+                                                            className="form-row mb-3"
+                                                  >
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="inputState"
+                                                                      >
+                                                                                Sort by
+                                                                      </label>
+                                                                      <select
+                                                                                className="form-control"
+                                                                                id="inputState"
+                                                                                onChange={[Function]}
+                                                                      >
+                                                                                <option
+                                                                                          value="created"
+                                                                                >
+                                                                                          created
+                                                                                </option>
+                                                                                <option
+                                                                                          value="updated"
+                                                                                >
+                                                                                          updated
+                                                                                </option>
+                                                                                <option
+                                                                                          value="comments"
+                                                                                >
+                                                                                          comments
+                                                                                </option>
+                                                                      </select>
+                                                            </div>
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="inputDirection"
+                                                                      >
+                                                                                Sort direction
+                                                                      </label>
+                                                                      <select
+                                                                                className="form-control"
+                                                                                id="inputState"
+                                                                                onChange={[Function]}
+                                                                      >
+                                                                                <option
+                                                                                          value="desc"
+                                                                                >
+                                                                                          descending
+                                                                                </option>
+                                                                                <option
+                                                                                          value="asc"
+                                                                                >
+                                                                                          ascending
+                                                                                </option>
+                                                                      </select>
+                                                            </div>
+                                                  </div>
+                                                  <hr />
+                                                  <div
+                                                            className="form-row mb-3"
+                                                  >
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="inputTags"
+                                                                      >
+                                                                                Labels
+                                                                      </label>
+                                                                      <TagsInput
+                                                                                addKeys={
+                                                                                          Array [
+                                                                                                    9,
+                                                                                                    13,
+                                                                                                  ]
+                                                                                }
+                                                                                addOnBlur={false}
+                                                                                addOnPaste={false}
+                                                                                className="react-tagsinput"
+                                                                                disabled={false}
+                                                                                focusedClassName="react-tagsinput--focused"
+                                                                                inputProps={Object {}}
+                                                                                maxTags={-1}
+                                                                                onChange={[Function]}
+                                                                                onlyUnique={false}
+                                                                                pasteSplit={[Function]}
+                                                                                preventSubmit={true}
+                                                                                removeKeys={
+                                                                                          Array [
+                                                                                                    8,
+                                                                                                  ]
+                                                                                }
+                                                                                renderInput={[Function]}
+                                                                                renderLayout={[Function]}
+                                                                                renderTag={[Function]}
+                                                                                tagDisplayProp={null}
+                                                                                tagProps={
+                                                                                          Object {
+                                                                                                    "className": "react-tagsinput-tag",
+                                                                                                    "classNameRemove": "react-tagsinput-remove",
+                                                                                                  }
+                                                                                }
+                                                                                validationRegex={/\\.\\*/}
+                                                                                value={
+                                                                                          Array [
+                                                                                                    "bug",
+                                                                                                    "ui",
+                                                                                                  ]
+                                                                                }
+                                                                      />
+                                                            </div>
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="inputState"
+                                                                      >
+                                                                                State
+                                                                      </label>
+                                                                      <select
+                                                                                className="form-control"
+                                                                                id="inputState"
+                                                                                onChange={[Function]}
+                                                                      >
+                                                                                <option
+                                                                                          value="all"
+                                                                                >
+                                                                                          all
+                                                                                </option>
+                                                                                <option
+                                                                                          value="open"
+                                                                                >
+                                                                                          open
+                                                                                </option>
+                                                                                <option
+                                                                                          value="closed"
+                                                                                >
+                                                                                          closed
+                                                                                </option>
+                                                                      </select>
+                                                            </div>
+                                                  </div>
+                                                  <hr />
+                                                  <div
+                                                            className="form-row mb-3"
+                                                  >
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="date"
+                                                                      >
+                                                                                date
+                                                                      </label>
+                                                                      <DatePicker
+                                                                                allowSameDay={false}
+                                                                                dateFormat="L"
+                                                                                dateFormatCalendar="MMMM YYYY"
+                                                                                disabled={false}
+                                                                                disabledKeyboardNavigation={false}
+                                                                                dropdownMode="scroll"
+                                                                                monthsShown={1}
+                                                                                onBlur={[Function]}
+                                                                                onChange={[Function]}
+                                                                                onClickOutside={[Function]}
+                                                                                onFocus={[Function]}
+                                                                                onKeyDown={[Function]}
+                                                                                onMonthChange={[Function]}
+                                                                                onSelect={[Function]}
+                                                                                onYearChange={[Function]}
+                                                                                preventOpenOnFocus={false}
+                                                                                selected={"2017-11-12T20:41:00.000Z"}
+                                                                                shouldCloseOnSelect={true}
+                                                                                showTimeSelect={false}
+                                                                                timeCaption="Time"
+                                                                                timeIntervals={30}
+                                                                                withPortal={false}
+                                                                      />
+                                                            </div>
+                                                            <div
+                                                                      className="col"
+                                                            >
+                                                                      <label
+                                                                                htmlFor="author"
+                                                                      >
+                                                                                author
+                                                                      </label>
+                                                                      <div
+                                                                                className="col input-group p-0"
+                                                                      >
+                                                                                <div
+                                                                                          className="input-group-prepend"
+                                                                                >
+                                                                                          <span
+                                                                                                    className="input-group-text"
+                                                                                                    id="basic-addon1"
+                                                                                          >
+                                                                                                    @
+                                                                                          </span>
+                                                                                </div>
+                                                                                <input
+                                                                                          aria-describedby="basic-addon1"
+                                                                                          aria-label="Username"
+                                                                                          className="form-control"
+                                                                                          onChange={[Function]}
+                                                                                          placeholder="Creator"
+                                                                                          type="text"
+                                                                                          value=""
+                                                                                />
+                                                                      </div>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                              </form>
+                    </div>
+                    <Card
+                              item={
+                                        Object {
+                                                  "closed_at": null,
+                                                  "created_at": "2017-11-13T00:11:00+03:30",
+                                                  "id": 13,
+                                                  "title": "issue",
+                                                  "updated_at": "2017-11-13T00:11:00+03:30",
+                                                  "url": "www.google.com",
+                                                }
+                              }
+                    />
+                    <Card
+                              item={
+                                        Object {
+                                                  "closed_at": "2017-11-13T00:11:00+03:30",
+                                                  "created_at": "2017-11-13T00:11:00+03:30",
+                                                  "id": 20,
+                                                  "title": "issue2",
+                                                  "updated_at": "2017-11-13T00:11:00+03:30",
+                                                  "url": "www.google.com",
+                                                }
+                              }
+                    />
+          </div>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Issues
+    data={
+        Array [
+            Object {
+              "closed_at": null,
+              "created_at": "2017-11-13T00:11:00+03:30",
+              "id": 13,
+              "title": "issue",
+              "updated_at": "2017-11-13T00:11:00+03:30",
+              "url": "www.google.com",
+            },
+            Object {
+              "closed_at": "2017-11-13T00:11:00+03:30",
+              "created_at": "2017-11-13T00:11:00+03:30",
+              "id": 20,
+              "title": "issue2",
+              "updated_at": "2017-11-13T00:11:00+03:30",
+              "url": "www.google.com",
+            },
+          ]
+    }
+    error={null}
+    loading={false}
+    location={
+        Object {
+            "search": "?sort=comments&direction=asc&state=open&tags=bug,ui&since=2017-11-13T00:11:00+03:30",
+          }
+    }
+    name="atom/atom"
+    search=""
+/>,
+}
+`;

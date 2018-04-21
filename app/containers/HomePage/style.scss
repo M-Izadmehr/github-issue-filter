@@ -1,0 +1,100 @@
+.cont-homepage {
+  .jumbotron {
+    padding: 2rem;
+  }
+  .pagehead {
+    .item {
+      float: left;
+      margin: 0 10px 0 0;
+      font-size: 11px;
+      color: #24292e;
+      list-style-type: none;
+      .social-title {
+        position: relative;
+        display: inline-block;
+        padding: 6px 12px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        white-space: nowrap;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-repeat: repeat-x;
+        background-position: -1px -1px;
+        background-size: 110% 110%;
+        border: 1px solid rgba(27, 31, 35, 0.2);
+        border-radius: 0.25em;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        color: #24292e;
+        background-color: #eff3f6;
+        background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
+        padding: 3px 10px;
+        font-size: 12px;
+        line-height: 20px;
+        float: left;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+
+      }
+      .social-count {
+        float: left;
+        padding: 3px 10px;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 20px;
+        color: #24292e;
+        vertical-align: middle;
+        background-color: #fff;
+        border: 1px solid rgba(27, 31, 35, 0.2);
+        border-left: 0;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+      }
+    }
+  }
+  .react-tagsinput-input,.react-tagsinput-tag{
+    margin-bottom: 0;
+  }
+  .react-tagsinput{
+    display: flex;
+    align-items: center;
+    height: 38px;
+    padding: 0 2px;
+    border-radius: 3px;
+    input{
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #495057;
+      background-color: #fff;
+      background-clip: padding-box;
+      width: 100px;
+    }
+  }
+  .react-datepicker-wrapper{
+    background: white;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    padding: 0 3px;
+    height: 38px;
+    .react-datepicker__input-container, input{
+      width :100%;
+      outline: none;
+    }
+  }
+}
+.cont-homepage {
+  @media screen and (min-width: 1450px) {
+    .repo-header {
+      position: sticky;
+      position: -webkit-sticky;
+      top: 0;
+      z-index: 100;
+    }
+  }
+}

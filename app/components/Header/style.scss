@@ -1,0 +1,9 @@
+  .comp-header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 99;
+    .navbar {
+      min-height: 70px;
+    }
+  }

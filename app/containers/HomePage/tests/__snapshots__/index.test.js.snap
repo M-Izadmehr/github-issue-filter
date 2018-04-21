@@ -1,0 +1,619 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Page should render the homepage 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="cont-homepage container"
+>
+    <div>
+        <div
+            className="repo-header d-flex flex-column flex-md-row align-items-end"
+        >
+            <h1
+                className="display-4 mb-0 mt-0 mr-2"
+            >
+                Atom/atom
+                 Repository
+            </h1>
+            <div
+                className="pagehead mb-2"
+            >
+                <div
+                    className="item"
+                >
+                    <div
+                        className="social-title"
+                    >
+                        <svg
+                            aria-hidden="true"
+                            className="octicon octicon-star"
+                            height="16"
+                            version="1.1"
+                            viewBox="0 0 14 16"
+                            width="14"
+                        >
+                            <path
+                                d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"
+                                fillRule="evenodd"
+                            />
+                        </svg>
+                        Star
+                    </div>
+                    <a
+                        className="social-count"
+                    >
+                         
+                        40000
+                         
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div
+            className="jumbotron mb-1"
+        >
+            <p
+                className="lead"
+            >
+                A random description
+            </p>
+            <hr
+                className="my-4"
+            />
+            <div
+                className="d-flex flex-column flex-md-row justify-content-between align-items-center"
+            >
+                <ul>
+                    <li>
+                        Language: 
+                        JavaScript
+                    </li>
+                    <li>
+                        Open Issues: 
+                        100
+                    </li>
+                </ul>
+                <p
+                    className="lead"
+                >
+                    <Link
+                        className="btn btn-primary btn-lg"
+                        replace={false}
+                        to="/issues"
+                    >
+                        Track Issues
+                    </Link>
+                </p>
+            </div>
+        </div>
+        <Switch>
+            <Route
+                component={[Function]}
+                exact={true}
+                path="/issues"
+            />
+        </Switch>
+    </div>
+</div>,
+  "nodes": Array [
+    <div
+      className="cont-homepage container"
+>
+      <div>
+            <div
+                  className="repo-header d-flex flex-column flex-md-row align-items-end"
+            >
+                  <h1
+                        className="display-4 mb-0 mt-0 mr-2"
+                  >
+                        Atom/atom
+                         Repository
+                  </h1>
+                  <div
+                        className="pagehead mb-2"
+                  >
+                        <div
+                              className="item"
+                        >
+                              <div
+                                    className="social-title"
+                              >
+                                    <svg
+                                          aria-hidden="true"
+                                          className="octicon octicon-star"
+                                          height="16"
+                                          version="1.1"
+                                          viewBox="0 0 14 16"
+                                          width="14"
+                                    >
+                                          <path
+                                                d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"
+                                                fillRule="evenodd"
+                                          />
+                                    </svg>
+                                    Star
+                              </div>
+                              <a
+                                    className="social-count"
+                              >
+                                     
+                                    40000
+                                     
+                              </a>
+                        </div>
+                  </div>
+            </div>
+            <div
+                  className="jumbotron mb-1"
+            >
+                  <p
+                        className="lead"
+                  >
+                        A random description
+                  </p>
+                  <hr
+                        className="my-4"
+                  />
+                  <div
+                        className="d-flex flex-column flex-md-row justify-content-between align-items-center"
+                  >
+                        <ul>
+                              <li>
+                                    Language: 
+                                    JavaScript
+                              </li>
+                              <li>
+                                    Open Issues: 
+                                    100
+                              </li>
+                        </ul>
+                        <p
+                              className="lead"
+                        >
+                              <Link
+                                    className="btn btn-primary btn-lg"
+                                    replace={false}
+                                    to="/issues"
+                              >
+                                    Track Issues
+                              </Link>
+                        </p>
+                  </div>
+            </div>
+            <Switch>
+                  <Route
+                        component={[Function]}
+                        exact={true}
+                        path="/issues"
+                  />
+            </Switch>
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 1,
+      "_context": Object {},
+      "_currentElement": <HomePage
+        data={
+                Object {
+                        "description": "A random description",
+                        "language": "JavaScript",
+                        "name": "atom/atom",
+                        "open_issues": "100",
+                        "stargazers_count": "40000",
+                      }
+        }
+        error={null}
+        loading={false}
+        name="atom/atom"
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": HomePage {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "data": Object {
+            "description": "A random description",
+            "language": "JavaScript",
+            "name": "atom/atom",
+            "open_issues": "100",
+            "stargazers_count": "40000",
+          },
+          "error": null,
+          "loading": false,
+          "name": "atom/atom",
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="cont-homepage container"
+>
+          <div>
+                    <div
+                              className="repo-header d-flex flex-column flex-md-row align-items-end"
+                    >
+                              <h1
+                                        className="display-4 mb-0 mt-0 mr-2"
+                              >
+                                        Atom/atom
+                                         Repository
+                              </h1>
+                              <div
+                                        className="pagehead mb-2"
+                              >
+                                        <div
+                                                  className="item"
+                                        >
+                                                  <div
+                                                            className="social-title"
+                                                  >
+                                                            <svg
+                                                                      aria-hidden="true"
+                                                                      className="octicon octicon-star"
+                                                                      height="16"
+                                                                      version="1.1"
+                                                                      viewBox="0 0 14 16"
+                                                                      width="14"
+                                                            >
+                                                                      <path
+                                                                                d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"
+                                                                                fillRule="evenodd"
+                                                                      />
+                                                            </svg>
+                                                            Star
+                                                  </div>
+                                                  <a
+                                                            className="social-count"
+                                                  >
+                                                             
+                                                            40000
+                                                             
+                                                  </a>
+                                        </div>
+                              </div>
+                    </div>
+                    <div
+                              className="jumbotron mb-1"
+                    >
+                              <p
+                                        className="lead"
+                              >
+                                        A random description
+                              </p>
+                              <hr
+                                        className="my-4"
+                              />
+                              <div
+                                        className="d-flex flex-column flex-md-row justify-content-between align-items-center"
+                              >
+                                        <ul>
+                                                  <li>
+                                                            Language: 
+                                                            JavaScript
+                                                  </li>
+                                                  <li>
+                                                            Open Issues: 
+                                                            100
+                                                  </li>
+                                        </ul>
+                                        <p
+                                                  className="lead"
+                                        >
+                                                  <Link
+                                                            className="btn btn-primary btn-lg"
+                                                            replace={false}
+                                                            to="/issues"
+                                                  >
+                                                            Track Issues
+                                                  </Link>
+                                        </p>
+                              </div>
+                    </div>
+                    <Switch>
+                              <Route
+                                        component={[Function]}
+                                        exact={true}
+                                        path="/issues"
+                              />
+                    </Switch>
+          </div>
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div
+          className="cont-homepage container"
+>
+          <div>
+                    <div
+                              className="repo-header d-flex flex-column flex-md-row align-items-end"
+                    >
+                              <h1
+                                        className="display-4 mb-0 mt-0 mr-2"
+                              >
+                                        Atom/atom
+                                         Repository
+                              </h1>
+                              <div
+                                        className="pagehead mb-2"
+                              >
+                                        <div
+                                                  className="item"
+                                        >
+                                                  <div
+                                                            className="social-title"
+                                                  >
+                                                            <svg
+                                                                      aria-hidden="true"
+                                                                      className="octicon octicon-star"
+                                                                      height="16"
+                                                                      version="1.1"
+                                                                      viewBox="0 0 14 16"
+                                                                      width="14"
+                                                            >
+                                                                      <path
+                                                                                d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"
+                                                                                fillRule="evenodd"
+                                                                      />
+                                                            </svg>
+                                                            Star
+                                                  </div>
+                                                  <a
+                                                            className="social-count"
+                                                  >
+                                                             
+                                                            40000
+                                                             
+                                                  </a>
+                                        </div>
+                              </div>
+                    </div>
+                    <div
+                              className="jumbotron mb-1"
+                    >
+                              <p
+                                        className="lead"
+                              >
+                                        A random description
+                              </p>
+                              <hr
+                                        className="my-4"
+                              />
+                              <div
+                                        className="d-flex flex-column flex-md-row justify-content-between align-items-center"
+                              >
+                                        <ul>
+                                                  <li>
+                                                            Language: 
+                                                            JavaScript
+                                                  </li>
+                                                  <li>
+                                                            Open Issues: 
+                                                            100
+                                                  </li>
+                                        </ul>
+                                        <p
+                                                  className="lead"
+                                        >
+                                                  <Link
+                                                            className="btn btn-primary btn-lg"
+                                                            replace={false}
+                                                            to="/issues"
+                                                  >
+                                                            Track Issues
+                                                  </Link>
+                                        </p>
+                              </div>
+                    </div>
+                    <Switch>
+                              <Route
+                                        component={[Function]}
+                                        exact={true}
+                                        path="/issues"
+                              />
+                    </Switch>
+          </div>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <HomePage
+    data={
+        Object {
+            "description": "A random description",
+            "language": "JavaScript",
+            "name": "atom/atom",
+            "open_issues": "100",
+            "stargazers_count": "40000",
+          }
+    }
+    error={null}
+    loading={false}
+    name="atom/atom"
+/>,
+}
+`;
+
+exports[`Home Page should render the loading case 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="cont-homepage container"
+>
+    <div
+        className="loading"
+    >
+        <img
+            alt="loading..."
+            className="loading-icon"
+            src="IMAGE_MOCK"
+        />
+    </div>
+</div>,
+  "nodes": Array [
+    <div
+      className="cont-homepage container"
+>
+      <div
+            className="loading"
+      >
+            <img
+                  alt="loading..."
+                  className="loading-icon"
+                  src="IMAGE_MOCK"
+            />
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 1,
+      "_context": Object {},
+      "_currentElement": <HomePage
+        data={
+                Object {
+                        "description": "A random description",
+                        "language": "JavaScript",
+                        "name": "atom/atom",
+                        "open_issues": "100",
+                        "stargazers_count": "40000",
+                      }
+        }
+        error={null}
+        loading={true}
+        name="atom/atom"
+/>,
+      "_debugID": 3,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": HomePage {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "data": Object {
+            "description": "A random description",
+            "language": "JavaScript",
+            "name": "atom/atom",
+            "open_issues": "100",
+            "stargazers_count": "40000",
+          },
+          "error": null,
+          "loading": true,
+          "name": "atom/atom",
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="cont-homepage container"
+>
+          <div
+                    className="loading"
+          >
+                    <img
+                              alt="loading..."
+                              className="loading-icon"
+                              src="IMAGE_MOCK"
+                    />
+          </div>
+</div>,
+        "_debugID": 4,
+        "_renderedOutput": <div
+          className="cont-homepage container"
+>
+          <div
+                    className="loading"
+          >
+                    <img
+                              alt="loading..."
+                              className="loading-icon"
+                              src="IMAGE_MOCK"
+                    />
+          </div>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <HomePage
+    data={
+        Object {
+            "description": "A random description",
+            "language": "JavaScript",
+            "name": "atom/atom",
+            "open_issues": "100",
+            "stargazers_count": "40000",
+          }
+    }
+    error={null}
+    loading={true}
+    name="atom/atom"
+/>,
+}
+`;
